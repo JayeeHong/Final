@@ -1,13 +1,13 @@
-﻿package web.controller;
+package web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class BuyerController {
+public class SellerController {
 	
-	@RequestMapping(value="/buyer/main", method=RequestMethod.GET)
-	public void buyerMain() { }
-	
+	@RequestMapping(value="/seller/main", method=RequestMethod.GET)
+	public void sellerMain() { }
+
 }
