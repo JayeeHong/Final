@@ -28,6 +28,8 @@ public class HomeController {
 		
 		logger.info("TESTTEST!!!");
 		
+		logger.info("TEST222");
+		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
