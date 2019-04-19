@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 마이바티스3 Mapper DOCTYPE -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<!-- 매퍼 설정 -->
+<mapper namespace="web.dao.face.BuyerDao">
+	
+	<select id="usingid" parameterType="web.dto.BuyerInfo" resultType="int">
+		SELECT COUNT(*) from buyerInfo
+		where buyerId=#{buyerId }
+	
+	</select>
+	
+	<insert id="buyerJoin" parameterType="web.dto.BuyerInfo">
+		INSERT INTO buyerinfo(buyerid, buyerpw, buyerphone, buyeremail, buyername)
+		VALUES(#{buyerId }, #{buyerPw }, #{buyerPhone }, #{buyerEmail }, #{buyerName } )
+	</insert>
+
+	<select id="buyerLogin" parameterType="web.dto.BuyerInfo" resultType="int">
+		SELECT COUNT(*) from buyerinfo
+		where buyerId = #{buyerId }
+		and	buyerPw = #{buyerPw }
+	</select>
+
+</mapper>
