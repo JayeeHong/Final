@@ -10,4 +10,7 @@ public class BuyerController {
 	@RequestMapping(value="/buyer/main", method=RequestMethod.GET)
 	public void buyerMain() { }
 	
+	
+	//111111111
+	
 }
