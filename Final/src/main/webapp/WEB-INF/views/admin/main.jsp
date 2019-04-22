@@ -8,5 +8,8 @@
 </head>
 <body>
 
+<h3>관리자 메인</h3>
+<hr>
+
 </body>
 </html>
