@@ -12,7 +12,7 @@ public class BuyerController {
 
 	//jjjjjj
 	
-	
+	//2222222
 	
 	//111111111
 	
