@@ -15,7 +15,9 @@
 	#menu ul li {
 		position: relative;
 		float: left;
-		margin-left: 2px;
+		margin-left: 100px;
+		margin-top: 10px;
+		font-size: 50px;
 	}
 	
 	#menu ul {
