@@ -11,7 +11,7 @@ public class BuyerController {
 	public void buyerMain() { }
 
 	//jjjjjj
-	//브랜치 테스트222
+	//브랜치 테스트2223333333333333333
 	
 	//2222222
 	
