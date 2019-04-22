@@ -25,7 +25,7 @@
 	</definition>
 	
 	
-	<definition name="seller/*" template="/WEB-INF/tiles/layout_seller.jsp">
+	<definition name="seller" template="/WEB-INF/tiles/layout_seller.jsp">
 		<put-attribute name="header" value="/WEB-INF/tiles/layout/header_seller.jsp"></put-attribute>
 		<put-attribute name="body" />
 	</definition>
