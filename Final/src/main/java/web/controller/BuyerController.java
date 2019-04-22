@@ -9,13 +9,5 @@ public class BuyerController {
 	
 	@RequestMapping(value="/buyer/main", method=RequestMethod.GET)
 	public void buyerMain() { }
-
-	//jjjjjj
-	
-	//2222222
-	
-	//브랜치22222222223333333333444444444445555555555555
-	
-	//111111111
 	
 }
