@@ -42,6 +42,10 @@
 		<put-attribute name="body" value="/WEB-INF/views/seller/{1}/{2}/{3}.jsp" />
 	</definition>
 	
+	<definition name="seller/*/*/*/*" extends="seller">
+		<put-attribute name="body" value="/WEB-INF/views/seller/{1}/{2}/{3}/{4}.jsp" />
+	</definition>
+	
 	
 	
 	<definition name="admin" template="/WEB-INF/tiles/layout_admin.jsp">
