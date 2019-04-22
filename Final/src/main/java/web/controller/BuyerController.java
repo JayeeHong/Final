@@ -14,7 +14,7 @@ public class BuyerController {
 	
 	//2222222
 	
-	//브랜치
+	//브랜치2222222222
 	
 	//111111111
 	
