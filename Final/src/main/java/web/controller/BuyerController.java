@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class BuyerController {
 	
 	@RequestMapping(value="/buyer/main", method=RequestMethod.GET)
+
 	public void buyerMain() { }
 
-	
-	
 }
