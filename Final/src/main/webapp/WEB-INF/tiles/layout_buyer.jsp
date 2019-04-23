@@ -21,23 +21,16 @@
 <style type="text/css">
 	/* 모든 페이지에 적용되는 스타일 */
 	
-	.wrap {
-		width: 1100px;
-		margin: 0 auto;
-		border: 1px solid #ccc;
-	}
+/* 	.wrap { */
+/* 		width: 1100px; */
+/* 		margin: 0 auto; */
+/* 		border: 1px solid #ccc; */
+/* 	} */
 	
-	.header {
-		border: 1px solid red;
-	}
-	
-	.footer {
-		border: 1px solid blue;
-	}
 </style>
 
 <script type="text/javascript">
-/* 모든 페이지에 적용되는 자바스크립트 */
+	/* 모든 페이지에 적용되는 자바스크립트 */
 
 </script>
 
