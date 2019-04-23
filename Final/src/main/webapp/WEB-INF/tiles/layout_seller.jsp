@@ -27,9 +27,9 @@
 		border: 1px solid #ccc;
 	}
 	
-	.header {
+/* 	.header { */
 /* 		border: 1px solid red; */
-	}
+/* 	} */
 </style>
 
 <script type="text/javascript">
