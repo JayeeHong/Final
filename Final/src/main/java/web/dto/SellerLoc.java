@@ -10,6 +10,15 @@ public class SellerLoc { // 판매자 판매정보
 	private String sellerTimeE; // 판매종료시간
 	private String sellerCard; // 카드결제여부 - 가능, 불가능
 	private int magazineNo; // 판매부수번호 (fk)
+	private String sellerId; // 구매자아이디 (fk)
+	private String bigdomId; // 빅돔아이디 (fk)
+
+	@Override
+	public String toString() {
+		return "SellerLoc [locNo=" + locNo + ", zone=" + zone + ", station=" + station + ", spot=" + spot
+				+ ", sellerTimeS=" + sellerTimeS + ", sellerTimeE=" + sellerTimeE + ", sellerCard=" + sellerCard
+				+ ", magazineNo=" + magazineNo + ", sellerId=" + sellerId + ", bigdomId=" + bigdomId + "]";
+	}
 	
 	public int getLocNo() {
 		return locNo;
@@ -59,12 +68,17 @@ public class SellerLoc { // 판매자 판매정보
 	public void setMagazineNo(int magazineNo) {
 		this.magazineNo = magazineNo;
 	}
-	
-	@Override
-	public String toString() {
-		return "SellerLoc [locNo=" + locNo + ", zone=" + zone + ", station=" + station + ", spot=" + spot
-				+ ", sellerTimeS=" + sellerTimeS + ", sellerTimeE=" + sellerTimeE + ", sellerCard=" + sellerCard
-				+ ", magazineNo=" + magazineNo + "]";
+	public String getSellerId() {
+		return sellerId;
+	}
+	public void setSellerId(String sellerId) {
+		this.sellerId = sellerId;
+	}
+	public String getBigdomId() {
+		return bigdomId;
+	}
+	public void setBigdomId(String bigdomId) {
+		this.bigdomId = bigdomId;
 	}
 	
 }
