@@ -25,6 +25,7 @@
 		width: 1100px;
 		margin: 0 auto;
 		border: 1px solid #ccc;
+		padding-bottom: 20px;
 	}
 </style>
 
