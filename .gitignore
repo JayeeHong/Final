@@ -122,4 +122,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+<<<<<<< HEAD
 # End of https://www.gitignore.io/api/java,windows,eclipse
+=======
+# End of https://www.gitignore.io/api/java,windows,eclipse
+>>>>>>> branch 'master' of https://github.com/JayeeHong/Final-Project.git
