@@ -42,6 +42,7 @@
 		margin-top: 33px;
 		margin-right: 30px;
 	}
+	
 </style>
 
 <div class="header" style="height: 100px">
