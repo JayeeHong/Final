@@ -2,7 +2,5 @@
     pageEncoding="UTF-8"%>
 
 <div class="header">
-	<h1>구매자 HEADER</h1>
-	
-	하
+	<h1>관리자 HEADER</h1>
 </div>

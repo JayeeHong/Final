@@ -26,6 +26,10 @@
 		margin: 0 auto;
 		border: 1px solid #ccc;
 	}
+	
+	.header {
+		border: 1px solid red;
+	}
 </style>
 
 <script type="text/javascript">
