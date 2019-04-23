@@ -28,7 +28,7 @@
 	}
 	
 	.header {
-		border: 1px solid red;
+/* 		border: 1px solid red; */
 	}
 </style>
 
