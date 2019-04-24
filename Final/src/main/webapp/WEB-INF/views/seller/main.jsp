@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <style type="text/css">
 	.login {
@@ -13,6 +14,7 @@
 
 <div class="login">
 
+<c:if test="${not sellerLogin }">
 <div>
 <h3>판매자 로그인</h3>
 </div>
@@ -34,5 +36,10 @@
 <button style="width: 300px;" class="btn btn-primary">로그인</button>
 </div>
 </form>
+</c:if>
+
+<c:if test="${sellerLogin }">
+채팅창
+</c:if>
 
 </div>
